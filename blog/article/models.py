@@ -6,9 +6,12 @@ class Article(models.Model):
     likes = models.IntegerField(default=0)
     
     
+    
     def __str__(self):
         return self.title
     
+    
+   
     
         
 class Comment(models.Model):
